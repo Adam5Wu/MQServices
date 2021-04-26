@@ -1,0 +1,2 @@
+-r common/requirements.txt
+darksky_weather==1.4.1

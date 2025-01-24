@@ -22,7 +22,7 @@ def GetLunarInfo(unix_ts, time_conv):
     last_term = None
     next_term = None
     while not next_term:
-        for i in range(24):
+        for i in (22,23,*range(22)):
             term = solarterms[i]
             term_date = term(scan_year)
             if term_date <= ethnic_date:

@@ -24,7 +24,7 @@ MOON = PLANETS['moon']
 EARTH = PLANETS['earth']
 SEASONS = almanac.seasons(PLANETS)
 
-# Genalized from skyfield/almanac.py
+# Generalized from skyfield/almanac.py
 def PlanetObserver(planet, topos):
     topos_at = (EARTH + topos).at
 
